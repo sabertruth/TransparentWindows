@@ -45,11 +45,6 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Credits
-
-- This project utilizes the [pygetwindow](https://github.com/asweigart/pygetwindow) library for interacting with windows.
-- Special thanks to [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) for creating TeX, which inspired the opacity control functionality.
-
 ## Contact
 
 For questions or feedback, please contact [sabertruth](https://github.com/sabertruth).
