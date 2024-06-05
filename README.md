@@ -2,7 +2,7 @@
 
 TransparentWindows is a Python application that allows users to control the opacity of windows on their desktop environment. It provides a graphical user interface (GUI) for adjusting window opacity, Display selected, pinning/unpinning windows, and managing window visibility.
 
-![TransparentWindows Demo][https://github.com/sabertruth/TransparentWindows/edit/main/README.md](https://github.com/sabertruth/TransparentWindows/blob/main/assets/demo.gif)
+![TransparentWindows Demo](https://github.com/sabertruth/TransparentWindows/blob/main/assets/demo.gif)
 
 ## Features
 
