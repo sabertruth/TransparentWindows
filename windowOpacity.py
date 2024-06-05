@@ -75,10 +75,12 @@ def refresh_window_list():
     window_hwnds.clear()
     window_titles.clear()
     for window in gw.getAllWindows():
-        if window.title:
+        if window.title and window.title not in ["Program Manager", "Microsoft Text Input Application"]:
             window_hwnds.append(window._hWnd)
             window_titles.append(get_application_name(window.title))
     update_window_list()
+
+
 
 def update_window_list():
     window_list.delete(0, tk.END)
@@ -121,7 +123,7 @@ refresh_window_list()
 refresh_button = ttk.Button(root, text="Refresh", command=refresh_window_list)
 reset_button = ttk.Button(root, text="Reset All", command=reset_all_windows)
 revert_button = ttk.Button(root, text="Revert", command=revert_single_window)
-pin_button = ttk.Button(root, text="Pin", command=pin_selected_window)
+pin_button = ttk.Button(root, text="Show Selected", command=pin_selected_window)
 unpin_button = ttk.Button(root, text="Unpin All", command=unpin_all_windows)
 
 # Use grid geometry manager
