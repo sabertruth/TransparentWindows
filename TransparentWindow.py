@@ -68,7 +68,7 @@ root.geometry('400x300')  # Width x Height
 
 root.protocol("WM_DELETE_WINDOW", on_closing)
 
-slider = tk.Scale(root, from_=0, to=100, orient='horizontal', command=on_slider_change)
+slider = tk.Scale(root, from_=25, to=100, orient='horizontal', command=on_slider_change)
 slider.set(100)  # Set default value to 100
 
 window_list_frame = ttk.Frame(root)
